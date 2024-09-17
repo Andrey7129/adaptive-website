@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб-страница по БЭМ</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+body> {
+          background-image: url('images/fon1.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+  background-size: cover;
+        }
+        </style>
+    <bоdy baсkground="images/tecnologia.jpg">
+ 
+    </body>
+       <!-- Блок header -->
+    <header class="header">
+        <h1 class="header__title">Добро пожаловать на страницу Ирины логопеда</h1>
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li class="header__menu-item"><a href="about.html" class="header__menu-link">Обо мне</a></li>
+                <li class="header__menu-item"><a href="#projects" class="header__menu-link">Основные направления моей работы</a></li>
+                <li class="header__menu-item"><a href="contact.html" class="header__menu-link">Контакты</a></li>
+            </ul>
+        </nav> 
+        <!-- Картинка в header -->
+        <figure class="header__image">
+            <img src="images/Log.jpg" alt="Привет!" class="Log.jpg">
+            <figcaption class="header__caption">Привет!</figcaption>
+        </figure>
+    </header>
+
+    <!-- Блок main -->
+    <main class="main-content">
+        <!-- Блок about -->
+        <section class="about" id="about">
+            <h2 class="about__title">Обо мне</h2>
+            <p class="about__text">Меня зовут <strong>Ирина</strong>, я <em>логопед</em>. Моя цель помощь детям в коррекции речевых нарушений.</p>
+            <p class="about__text">Я специализируюсь на постановке звуков, на развитии фонематического слуха, развитие связной речи .</p>
+
+            <!-- Цитата -->
+            <blockquote class="about__quote">
+                <p>“Мы часто повторяем, что о человеке судят по его делам, но забываем иногда, что слово тоже поступок. Речь человека - зеркало его самого. ”</p>
+                <cite>— Лев Толстой</cite>
+            </blockquote>
+         <!-- Блок projects -->
+
+        <section class="projects" id="projects">
+            <h2 class="projects__title">Основные направления моей работы </h2>
+            <ul class="projects__list">
+                <li class="projects__item">
+                    <h3 class="projects__item-title">Знакомство</h3>
+                    <p class="projects__item-description">Как проходят занятия</p>
+                    <!-- Код -->
+                    <ul class="projects__item-technologies">
+                        <li>Диагностика речи</li>
+                        <li>Подготовка к работе</li>
+                        <li>Работа с логопедом</li>
+                    </ul>
+                </li>
+                <li class="projects__item">
+                    <h3 class="projects__item-title">С чем работаю</h3>
+                    <p class="projects__item-description">Нарушения с которыми я работаю</p>
+                    <!-- Упорядоченный список -->
+                    <ol class="projects__item-steps">
+                        <li>Дислалия</li>
+                        <li>Дислексия и дисграфия</li>
+                        <li>Логопед с билингва</li>
+                        <li>Полготовка к школе</li>
+                    </ol>
+                </li>
+                <li class="projects__item">
+                    <h3 class="projects__item-title">Как проходят занятия</h3>
+                    <p class="projects__item-description">Занятия проходят онлайн и имеют следующие преимущества</p>
+                    <!-- Несортированный список -->
+                    <ul class="projects__item-technologies">
+                        <li>Гибкий график</li>
+                        <li>Комфорт</li>
+                        <li>Детям интересно</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section class="content__image">  
+            <img src="images/tecno.jpg" alt="Занятие"  class="image"> 
+</section> 
+
+            <img src="images/tecno.jpg" alt="Занятие" width="360" height="240" srcset="tecno-360px.jpg 1x, tecno-720px.jpg 2x, tecno-1080px.jpg 3x" 
+            class="image"> 
+                    </section> 
+
+        <!-- Блок contact -->
+        <section class="contact" id="contact">
+            <h2 class="contact__title">Контакты</h2>
+            <p class="contact__text">Вы можете связаться со мной по электронной почте: <a href="mailto:email@example.com" class="contact__link">z19e71n.andrei@yandex.ru</a></p>
+            <p class="contact__text">Также найдите меня в социальных сетях:</p>
+            <!-- Ссылки на социальные сети -->
+            <ul class="contact__socials">
+                <li class="contact__social-item"><a href="https://twitter.com" target="_blank" class="contact__social-link">Twitter</a></li>
+                <li class="contact__social-item"><a href="https://vk.com/.com" target="_blank" class="contact__social-link">VK</a></li>
+                <li class="contact__social-item"><a href="https://ok.ru/" target="_blank" class="contact__social-link">OK</a></li>
+            </ul>
+
+             </section>
+    </main>
+
+    <!-- Блок footer -->
+    <footer class="footer">
+        <p class="footer__text">© 2024 Ирина. Все права защищены.</p>
+        <!-- Ссылка наверх страницы -->
+        <p><a href="#top" class="footer__link">Наверх</a></p>
+    </footer>
+</body>
+</html>
